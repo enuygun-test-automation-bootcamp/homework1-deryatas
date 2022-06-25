@@ -1,2 +1,6 @@
 # homework1
 ödev1
+1) Abstraction nedir?
+   Abstraction ile bir işin ne yaptığını biliriz ancak nasıl yapıldığına dair bir bilgimiz yoktur. Var olan sorunu çözmeye yönelik veyahut bize lazım olan bilgiye kadar olanını biliriz. Bu işlemler için ise Interface ve Abstract Class gibi yapılardan yararlanırız.Arka planda gerçekleşen olaylardan çok kullandığınız yazılım dilinin imkan ve kurallarına odaklanırsınız. Örnek vermek gerekirse araba sürmek için araçtaki bütün mekanizmayı bilmenize gerek yoktur. Abstract, yani soyut metot, içerisinde kod barındırmayan, yalnızca imzadan ibaret olan metotlardır. Bu metotlar alt sınıflara devredilir ve alt sınıflar Override ettikleri bu soyut metotları kendi ihtiyaçlarına göre doldururlar. 
+2) Sınıfları kullanırken implement ve extends ile çağırabiliyoruz, runtime'da hangisi önce yürütülür? İmplementsVsExtends adlı bir dosya oluşturdum ve içine hesaplama yapmak istediğim verileri girdim. Burada mainclass' ı ortak tutarak soyutlama ve kalıtım işlemlerini yaptırdım. Extends sınıfı runtime da daha önce çalıştı.(Square ve rectangle extends sınıfına bağlı, triangle ve data implements sınıfına dahildir.)
+3) Internal nedir? C# içinde kullanılır java da dilinde kullanılan bir karşılığını bulamadım.
